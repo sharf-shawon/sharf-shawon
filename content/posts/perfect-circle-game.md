@@ -8,7 +8,7 @@ tags: ['game', 'SPA', 'projects', 'personal']
 
 🔗 [Live Demo](https://circle.shawon.me) | 🗂️ [GitHub Repository](https://github.com/sharf-shawon/circle-game)  
 
-![Perfect Circle Game Preview](assets/preview.png)  
+![Perfect Circle Game Preview](./preview.png)  
 
 ## Introduction  
 
@@ -32,21 +32,23 @@ Built with **vanilla JavaScript, HTML5 Canvas, and Tailwind CSS**, the game is f
 git clone https://github.com/sharf-shawon/circle-game.git
 cd circle-game
 docker-compose up -d
+```
+
 The game will be available at http://localhost:8687.
 
-Manual Setup
+###Manual Setup
+
 Just open index.html in your browser—no dependencies needed!
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Frontend: Vanilla JS, HTML5 Canvas, Tailwind CSS
 Deployment: Nginx Alpine, Docker, Docker Compose
 No Backend Required: Fully client-side
-🔥 Challenges & Learnings
+
+## 🔥 Challenges & Learnings
 Implementing real-time accuracy calculation using geometry
 Optimizing HTML5 Canvas performance for smooth drawing
 Seamless deployment with Docker & Nginx Alpine
-🎯 Why I Built This
-A mix of fun and technical challenge, this project sharpened my skills in frontend development, optimization, and containerization. Plus, it’s a great way to test hand-eye coordination!
 
-👉 Try it out: Live Demo
-👉 Source Code: GitHub Repository
+##🎯 Why I Built This
+A mix of fun and technical challenge, this project sharpened my skills in frontend development, optimization, and containerization. Plus, it’s a great way to test hand-eye coordination!
