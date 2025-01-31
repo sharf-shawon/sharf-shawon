@@ -5,7 +5,7 @@ title: 'About'
 ---
 # About Me
 
-## 👋 Hi, I'm [Your Name]!
+## 👋 Hi, I'm Sharfuddin Shawon!
 
 I'm a **Computer Science undergrad** with a passion for **software engineering, artificial intelligence, and self-hosting**. I love designing **scalable systems**, optimizing performance, and exploring innovative solutions in **big data, networking, and automation**.
 
