@@ -11,16 +11,33 @@ menu:
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 30
+      weight: 20
     - identifier: posts
       name: Posts
       url: /posts
-      weight: 20
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+
 params:
+  env: production
+  description: "Sharfuddin Shawon is a Full Stack Software Engineer, Tech Enthusiast, and Blogger. He loves to write about new technologies, programming, and software development."
+  author: "Sharfuddin Shawon"
+  keywords: [
+    "Sharfuddin Shawon", 
+    "Shawon", 
+    "Full Stack Developer", 
+    "Software Engineer", 
+    "Tech Enthusiast", 
+    "Web Developer", 
+    "Programmer",
+    ]
+  images: ["https://i.postimg.cc/zv4Jqt4M/converted-image.png"]
+  defaultTheme: auto
+  ShowCodeCopyButtons: true
+  ShowShareButtons: true
   profileMode:
     enabled: true
     title: "Sharfuddin Shawon" # optional default will be site title
@@ -30,10 +47,10 @@ params:
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
+      - name: About Me
+        url: "/about"
       - name: Projects
         url: "/projects"
-      - name: Github
-        url: "https://github.com/sharf.shawon"
 
   socialIcons: # optional
     - name: "Youtube"
