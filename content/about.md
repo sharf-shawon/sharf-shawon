@@ -1,6 +1,6 @@
 ---
 date: '2025-01-30T19:36:22-06:00'
-draft: true
+draft: false
 title: 'About'
 ---
 # About Me
