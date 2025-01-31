@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sharfuddin Shawon</title>
-    <link>http://localhost:1313/</link>
+    <link>https://shawon.me/</link>
     <description>Recent content on Sharfuddin Shawon</description>
     <image>
       <title>Sharfuddin Shawon</title>
@@ -12,14 +12,14 @@
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Jan 2025 19:36:22 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shawon.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://shawon.me/about/</link>
       <pubDate>Thu, 30 Jan 2025 19:36:22 -0600</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://shawon.me/about/</guid>
       <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
-&lt;h2 id=&#34;-hi-im-your-name&#34;&gt;👋 Hi, I&amp;rsquo;m [Your Name]!&lt;/h2&gt;
+&lt;h2 id=&#34;-hi-im-sharfuddin-shawon&#34;&gt;👋 Hi, I&amp;rsquo;m Sharfuddin Shawon!&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m a &lt;strong&gt;Computer Science undergrad&lt;/strong&gt; with a passion for &lt;strong&gt;software engineering, artificial intelligence, and self-hosting&lt;/strong&gt;. I love designing &lt;strong&gt;scalable systems&lt;/strong&gt;, optimizing performance, and exploring innovative solutions in &lt;strong&gt;big data, networking, and automation&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-programming--development&#34;&gt;💻 Programming &amp;amp; Development&lt;/h2&gt;
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>Perfect Circle Game</title>
-      <link>http://localhost:1313/projects/perfect-circle-game/</link>
+      <link>https://shawon.me/posts/perfect-circle-game/</link>
       <pubDate>Thu, 30 Jan 2025 19:29:49 -0600</pubDate>
-      <guid>http://localhost:1313/projects/perfect-circle-game/</guid>
+      <guid>https://shawon.me/posts/perfect-circle-game/</guid>
       <description>&lt;h1 id=&#34;perfect-circle-game-a-fun-challenge-for-precision-and-accuracy&#34;&gt;Perfect Circle Game: A Fun Challenge for Precision and Accuracy&lt;/h1&gt;
 &lt;p&gt;🔗 &lt;a href=&#34;https://circle.shawon.me&#34;&gt;Live Demo&lt;/a&gt; | 🗂️ &lt;a href=&#34;https://github.com/sharf-shawon/circle-game&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;Perfect Circle Game Preview&#34; loading=&#34;lazy&#34; src=&#34;assets/preview.png&#34;&gt;&lt;/p&gt;
@@ -77,18 +77,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/hello-world/</link>
-      <pubDate>Thu, 30 Jan 2025 19:23:57 -0600</pubDate>
-      <guid>http://localhost:1313/hello-world/</guid>
-      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h1&gt;
-&lt;h2 id=&#34;hope-this-page-finds-you-well&#34;&gt;Hope this page finds you well!&lt;/h2&gt;</description>
-    </item>
-    <item>
       <title>Building a pfSense Router on an HP T630 Thin Client for Under $25</title>
-      <link>http://localhost:1313/posts/pfsense-hp-t630-blog/</link>
+      <link>https://shawon.me/projects/pfsense-hp-t630-blog/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/pfsense-hp-t630-blog/</guid>
+      <guid>https://shawon.me/projects/pfsense-hp-t630-blog/</guid>
       <description>&lt;h1 id=&#34;-build-a-pfsense-router-on-an-hp-t630-thin-client-for-under-25&#34;&gt;🛠️ Build a pfSense Router on an HP T630 Thin Client for Under $25&lt;/h1&gt;
 &lt;p&gt;&lt;img alt=&#34;HP T630 Thin Client&#34; loading=&#34;lazy&#34; src=&#34;img/hp-t630.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;🔗 &lt;strong&gt;HP T630 Info:&lt;/strong&gt; &lt;a href=&#34;https://www.parkytowers.me.uk/thin/hp/t630/&#34;&gt;Parky Towers&lt;/a&gt;&lt;/p&gt;

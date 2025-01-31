@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Sharfuddin Shawon</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://shawon.me/projects/</link>
     <description>Recent content in Projects on Sharfuddin Shawon</description>
     <image>
       <title>Sharfuddin Shawon</title>
@@ -11,51 +11,26 @@
     </image>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jan 2025 19:29:49 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shawon.me/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Perfect Circle Game</title>
-      <link>http://localhost:1313/projects/perfect-circle-game/</link>
-      <pubDate>Thu, 30 Jan 2025 19:29:49 -0600</pubDate>
-      <guid>http://localhost:1313/projects/perfect-circle-game/</guid>
-      <description>&lt;h1 id=&#34;perfect-circle-game-a-fun-challenge-for-precision-and-accuracy&#34;&gt;Perfect Circle Game: A Fun Challenge for Precision and Accuracy&lt;/h1&gt;
-&lt;p&gt;🔗 &lt;a href=&#34;https://circle.shawon.me&#34;&gt;Live Demo&lt;/a&gt; | 🗂️ &lt;a href=&#34;https://github.com/sharf-shawon/circle-game&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Perfect Circle Game Preview&#34; loading=&#34;lazy&#34; src=&#34;assets/preview.png&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Ever wondered how steady your hand is? &lt;strong&gt;Perfect Circle Game&lt;/strong&gt; challenges you to draw the most accurate circle possible while measuring your precision in real time.&lt;/p&gt;
-&lt;p&gt;Built with &lt;strong&gt;vanilla JavaScript, HTML5 Canvas, and Tailwind CSS&lt;/strong&gt;, the game is fully client-side, lightweight, and deployable via &lt;strong&gt;Docker &amp;amp; Nginx Alpine&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;-features&#34;&gt;🕹️ Features&lt;/h2&gt;
+      <title>Building a pfSense Router on an HP T630 Thin Client for Under $25</title>
+      <link>https://shawon.me/projects/pfsense-hp-t630-blog/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://shawon.me/projects/pfsense-hp-t630-blog/</guid>
+      <description>&lt;h1 id=&#34;-build-a-pfsense-router-on-an-hp-t630-thin-client-for-under-25&#34;&gt;🛠️ Build a pfSense Router on an HP T630 Thin Client for Under $25&lt;/h1&gt;
+&lt;p&gt;&lt;img alt=&#34;HP T630 Thin Client&#34; loading=&#34;lazy&#34; src=&#34;img/hp-t630.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;🔗 &lt;strong&gt;HP T630 Info:&lt;/strong&gt; &lt;a href=&#34;https://www.parkytowers.me.uk/thin/hp/t630/&#34;&gt;Parky Towers&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;why-the-hp-t630&#34;&gt;Why the HP T630?&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Real-time accuracy calculation&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Adjustable difficulty levels&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dark mode support&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stats tracking&lt;/strong&gt; (attempts &amp;amp; average accuracy)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Responsive design&lt;/strong&gt; for desktop &amp;amp; mobile&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost-Effective:&lt;/strong&gt; Purchased for &lt;strong&gt;$14.99 on eBay&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Low Power Consumption:&lt;/strong&gt; &lt;strong&gt;12W idle, 28W max&lt;/strong&gt; with &lt;strong&gt;passive cooling&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AES-NI Support:&lt;/strong&gt; Ideal for &lt;strong&gt;pfSense&lt;/strong&gt; performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compact &amp;amp; Silent:&lt;/strong&gt; Small form factor, no fan noise.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upgradeable:&lt;/strong&gt; Supports &lt;strong&gt;2.5Gb LAN&lt;/strong&gt; via M.2 NIC.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;-quick-setup&#34;&gt;🚀 Quick Setup&lt;/h2&gt;
-&lt;h3 id=&#34;run-with-docker-recommended&#34;&gt;Run with Docker (Recommended)&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/sharf-shawon/circle-game.git
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd circle-game
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker-compose up -d
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The game will be available at http://localhost:8687.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Manual Setup
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Just open index.html in your browser—no dependencies needed!
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;🛠️ Tech Stack
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Frontend: Vanilla JS, HTML5 Canvas, Tailwind CSS
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Deployment: Nginx Alpine, Docker, Docker Compose
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;No Backend Required: Fully client-side
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;🔥 Challenges &amp;amp; Learnings
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Implementing real-time accuracy calculation using geometry
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Optimizing HTML5 Canvas performance &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; smooth drawing
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Seamless deployment with Docker &amp;amp; Nginx Alpine
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;🎯 Why I Built This
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;A mix of fun and technical challenge, this project sharpened my skills in frontend development, optimization, and containerization. Plus, it’s a great way to test hand-eye coordination!
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;👉 Try it out: Live Demo
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;👉 Source Code: GitHub Repository
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;h2 id=&#34;-choosing--installing-the-nic&#34;&gt;🔌 Choosing &amp;amp; Installing the NIC&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;HP T630 lacks PCIe&lt;/strong&gt;, but it has an &lt;strong&gt;M.2 2230 slot&lt;/strong&gt; (typically for WiFi). The best fit:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
