@@ -1,0 +1,42 @@
+baseURL: https://shawon.me/
+languageCode: en-us
+title: Sharfuddin Shawon
+theme: ["PaperMod"]
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /About/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: posts
+      name: Posts
+      url: /posts
+      weight: 20
+params:
+  profileMode:
+    enabled: true
+    title: "Sharfuddin Shawon" # optional default will be site title
+    subtitle: "Full Stack Software Engineer" # optional
+    imageUrl: "https://i.postimg.cc/zv4Jqt4M/converted-image.png" # optional
+    imageTitle: "Sharfuddin Shawon" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Projects
+        url: "/projects"
+      - name: Github
+        url: "https://github.com/sharf.shawon"
+
+  socialIcons: # optional
+    - name: "Youtube"
+      url: "https://youtube.com/@sharf.shawon"
+    - name: "Twitter"
+      url: "https://x.com/sharf_shawon"
