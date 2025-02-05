@@ -5,13 +5,25 @@ draft: false
 tags: ["Laravel", "Bootstrap", "MySQL", "Multi-Tenant", "SaaS", "Restaurant Management", "Full-Stack", "Web App"]
 description: "ResPOS is a multi-tenant restaurant management system built with Laravel, Bootstrap, and MySQL. Developed in 2021, it features scalable SaaS architecture, efficient onboarding, and robust multi-tenant support."
 seo_keywords: "Laravel restaurant management, multi-tenant SaaS, Bootstrap, MySQL, cloud application, scalable SaaS, technical project, restaurant management software"
+images: [
+  "/respos-admin-dash.jpg"
+]
 ---
 
-## ResPOS – Multi-Tenant Restaurant Management Software
+![ResPOS Admin Dashboard](respos-admin-dash.jpg)
 
 ### Overview
 
 **ResPOS** is a comprehensive restaurant management system developed in 2021. The project leverages a modern tech stack — **Laravel** for backend development, **Bootstrap** for responsive front-end design, and **MySQL** for database management. Designed with a multi-tenant architecture, ResPOS demonstrates a cloud-ready SaaS approach that allows each new restaurant client to be onboarded quickly and securely through a simple account creation process.
+
+### Demo 
+- [ResPOS Demo](https://respos.shawon.me)
+
+```yaml
+  demo_url: https://respos.shawon.me
+  username: super.admin@shawon.me
+  password: demo1234
+```
 
 ### Technical Architecture and Implementation
 
