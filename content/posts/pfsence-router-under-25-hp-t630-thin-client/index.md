@@ -1,12 +1,11 @@
 ---
-title: "Building a pfSense Router on an HP T630 Thin Client for Under $25"
+title: "Building Perfect pfSense Router under $25 with HP T630 Thin Client + 2.5Gb Intel NIC"
 date: 2025-01-30
+
 author: "Sharfuddin Shawon"
 ---
 
-# 🛠️ Build a pfSense Router on an HP T630 Thin Client for Under $25  
-
-![HP T630 Thin Client](img/hp-t630.png)  
+![HP T630 Thin Client](hp-t630.png)  
 
 🔗 **HP T630 Info:** [Parky Towers](https://www.parkytowers.me.uk/thin/hp/t630/)  
 
@@ -32,7 +31,7 @@ The **HP T630 lacks PCIe**, but it has an **M.2 2230 slot** (typically for WiFi)
 2. Installed the **Realtek RTL8125B NIC** in the **M.2 2230 slot**.  
 3. **WAN:** Integrated 1Gb Ethernet, **LAN:** 2.5Gb NIC.  
 
-![Realtek RTL8125B NIC](img/rtl8125b.jpeg)  
+![Realtek RTL8125B NIC](rtl8125b.jpeg)  
 
 ## 🖥️ Installing pfSense  
 
@@ -59,7 +58,7 @@ The **HP T630 lacks PCIe**, but it has an **M.2 2230 slot** (typically for WiFi)
 
 5. **Reboot** and reassign network interfaces (**option 1** in the console menu).  
 
-![pfSense Console](img/pfsense-console.png)  
+![pfSense Console](pfsense-console.png)  
 
 ## ✅ Final Thoughts  
 
