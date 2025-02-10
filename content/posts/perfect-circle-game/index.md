@@ -4,9 +4,9 @@ draft: false
 title: 'Perfect Circle Game'
 tags: ['game', 'SPA', 'projects', 'personal']
 ---
-# Perfect Circle Game: A Fun Challenge for Precision and Accuracy  
+# Perfect Circle Game: A Fun Challenge for Precision and Accuracy
 
-![Perfect Circle Game Preview](./perfect-circle.png)  
+![Perfect Circle Game Preview](perfect-circle-draw.png)
 
 ## Introduction
 

@@ -4,16 +4,16 @@ draft: false
 title: 'About Me'
 ---
 
-![](banner.png)
-## 👋 Hi, I'm Sharfuddin Shawon!
+![Sharfuddin Shawon - Banner](/banner.png)
+## 👋 Hi, I'm **Sharfuddin Shawon**!
 
-I'm a **Computer Science undergrad** with a passion for **software engineering, artificial intelligence, and self-hosting**. I love designing **scalable systems**, optimizing performance, and exploring innovative solutions in **big data, networking, and automation**.
+I'm a **Computer Science undergrad** with a passion for **software engineering, artificial intelligence, self-hosting and homelabs**. I love designing **scalable systems**, optimizing performance, and exploring innovative solutions in **big data, networking, and automation**.
 
 ---
 
 ## 💻 Programming & Development
 
-I specialize in **software development**, focusing on **backend engineering, AI-driven simulations, and distributed systems**. Some of the technologies I frequently work with:
+I specialize in **full stack software development**, focusing on **backend engineering, AI-driven workflows, and distributed systems**. Some of the technologies I frequently work with:
 
 - **Programming Languages:** Python, Java, JavaScript, C++
 - **Frameworks & Tools:** Flask, FastAPI, Node.js, Express, Pandas, PySpark, TensorFlow
@@ -21,6 +21,13 @@ I specialize in **software development**, focusing on **backend engineering, AI-
 - **Cloud & DevOps:** Docker, Kubernetes, Nginx Proxy Manager, Apache Hadoop, CI/CD Pipelines
 
 I also enjoy contributing to **open-source projects**, writing **efficient algorithms**, and optimizing systems for **high performance**.
+
+---
+## GitHub Stats
+
+![Github Stats](https://github-readme-streak-stats.herokuapp.com/?user=sharf-shawon&theme=dracula&hide_border=true)
+
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs?username=sharf-shawon&show_icons=true&locale=en&layout=compact&theme=dracula&hide_border=true)
 
 ---
 

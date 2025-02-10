@@ -1,6 +1,6 @@
 baseURL: https://shawon.me/
 languageCode: en-us
-title: Sharfuddin Shawon
+title: Sharfuddin Shawon - Full Stack Software Engineer - shawon.me
 theme: ["PaperMod"]
 outputs:
   home:
@@ -11,24 +11,24 @@ menu:
   main:
     - identifier: about
       name: About
-      url: /About/
-      weight: 10
+      url: /about/
+      weight: 2
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 20
+      weight: 3
     - identifier: posts
       name: Posts
       url: /posts
-      weight: 30
+      weight: 4
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 40
+      weight: 5
     - identifier: search
       name: Search
       url: /search/
-      weight: 50
+      weight: 6
 
 params:
   env: production
@@ -43,7 +43,7 @@ params:
     "Web Developer", 
     "Programmer",
     ]
-  images: ["https://i.postimg.cc/zv4Jqt4M/converted-image.png"]
+  images: ["banner.png"]
   defaultTheme: auto
   ShowCodeCopyButtons: true
   ShowShareButtons: true
@@ -51,20 +51,26 @@ params:
     enabled: true
     title: "Sharfuddin Shawon" # optional default will be site title
     subtitle: "Full Stack Software Engineer" # optional
-    imageUrl: "https://i.postimg.cc/zv4Jqt4M/converted-image.png" # optional
+    imageUrl: "icons/icon.png" # optional
     imageTitle: "Sharfuddin Shawon" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    imageWidth: 280 # custom size
+    imageHeight: 280 # custom size
     buttons:
-      - name: About Me
+      - name: About
         url: "/about"
       - name: Projects
         url: "/projects"
+      - name: Posts
+        url: "/posts"
 
   socialIcons: # optional
-    - name: "Youtube"
-      url: "https://youtube.com/@sharf.shawon"
+    - name: "Github"
+      url: "https://github.com/sharf-shawon/"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/sharf-shawon/"
     - name: "Twitter"
       url: "https://x.com/sharf_shawon"
     - name: "Facebook"
       url: "https://fb.me/sharf.shawon"
+    - name: "Youtube"
+      url: "https://youtube.com/@sharf.shawon"
