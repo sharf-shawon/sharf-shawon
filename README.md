@@ -1,4 +1,4 @@
-<img src="assets/banner.png">
+<img src="content/banner.png">
 <h1>👋 Hello, I am Shawon</h1>
 <h3>A passionate software developer focused on writing clean, efficient code.</h3>
 
