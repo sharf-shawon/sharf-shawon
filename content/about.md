@@ -37,23 +37,10 @@ This setup allows me to run critical services efficiently while keeping costs lo
 
 ---
 
-## 🏆 Professional Experience
-
-🔹 **Data Analytics & Machine Learning Instructor**
-- Teaching **Big Data Analytics** using **PySpark, Hadoop, and ML models**.
-- Designing hands-on projects to help students understand **real-world data challenges**.
-
-🔹 **YouTube Content Creator – Game Off Nodes**
-- Creating educational content on **homelab, self-hosting, and budget-friendly tech setups**.
-- Sharing insights on **IoT, container orchestration, and decentralized networks**.
-
----
 
 ## 🚀 Current Projects & Interests
 
 - **Software Engineering Internship (Summer 2025)** – Seeking opportunities to contribute and grow.
-- **Homelab Inventory Management System** – A weekend project aimed at self-hosters.
-- **Indoor Vertical Saffron Farm** – Combining **IoT, automation, and agriculture** to create a sustainable farming system.
 - **Machine Learning on Big Data** – Working on **healthcare & fintech** datasets for academic research.
 
 ---
@@ -62,7 +49,6 @@ This setup allows me to run critical services efficiently while keeping costs lo
 
 I'm always open to new opportunities, collaborations, and tech discussions! Feel free to connect with me:
 
-- **GitHub:** [Your GitHub](#)
-- **LinkedIn:** [Your LinkedIn](#)
-- **YouTube:** [Game Off Nodes](#)
-- **Email:** [Your Email](#)
+- **GitHub:** [sharf-shawon](https://github.com/sharf-shawon)
+- **LinkedIn:** [in/sharf-shawon](https://www.linkedin.com/in/sharf-shawon/)
+- **Email:** [sharf@shawon.me](sharf@shawon.me)
