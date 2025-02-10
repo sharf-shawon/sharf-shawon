@@ -1,6 +1,6 @@
 baseURL: https://shawon.me/
 languageCode: en-us
-title: Sharfuddin Shawon - Full Stack Software Engineer - shawon.me
+title: Sharfuddin Shawon
 theme: ["PaperMod"]
 outputs:
   home:
