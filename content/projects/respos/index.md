@@ -21,7 +21,7 @@ images: [
 
 ```yaml
   demo_url: https://respos.shawon.me
-  username: admin@shawon.me
+  username: demo@shawon.me
   password: demo1234
 ```
 
