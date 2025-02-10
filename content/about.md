@@ -1,9 +1,8 @@
 ---
 date: '2025-01-30T19:36:22-06:00'
 draft: false
-title: 'About'
+title: 'About Me'
 ---
-# About Me
 
 ## 👋 Hi, I'm Sharfuddin Shawon!
 
