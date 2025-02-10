@@ -1,5 +1,6 @@
-<h1 align="center">👋 Hello, I am Sharfuddin Shawon</h1>
-<h3 align="center">A passionate software developer focused on writing clean, efficient code.</h3>
+<img src="assets/banner.png">
+<h1>👋 Hello, I am Shawon</h1>
+<h3>A passionate software developer focused on writing clean, efficient code.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sharf-shawon&label=Profile%20views&color=0e75b6&style=flat" alt="sharf-shawon" /> </p>
 
