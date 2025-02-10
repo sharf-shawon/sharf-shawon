@@ -16,12 +16,12 @@ images: [
 
 **ResPOS** is a comprehensive restaurant management system developed in 2021. The project leverages a modern tech stack — **Laravel** for backend development, **Bootstrap** for responsive front-end design, and **MySQL** for database management. Designed with a multi-tenant architecture, ResPOS demonstrates a cloud-ready SaaS approach that allows each new restaurant client to be onboarded quickly and securely through a simple account creation process.
 
-### Demo 
-- [ResPOS Demo](https://respos.shawon.me)
+### Live Demo 
+- Check out [ResPOS Live Demo](https://respos.shawon.me) yourself!
 
 ```yaml
   demo_url: https://respos.shawon.me
-  username: super.admin@shawon.me
+  username: admin@shawon.me
   password: demo1234
 ```
 

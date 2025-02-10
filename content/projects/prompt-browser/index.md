@@ -16,8 +16,8 @@ images: [
 
 **Prompt Browser** is a lightweight, resource-friendly application built to help users create, edit, and organize AI prompts directly in their browser’s local storage. It leverages **Tailwind CSS** for styling, minimal **JavaScript** logic for interactivity, and **Nginx** for static file serving. The entire app is bundled in a **small Docker image**, ensuring easy deployment and minimal overhead.
 
-### Demo 
-- [PromptBrowser Demo](https://prompts.shawon.me)
+### Live Demo 
+- Check out the [PromptBrowser](https://prompts.shawon.me) live.
 
 ### Goals and Approach
 

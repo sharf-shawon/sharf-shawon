@@ -74,3 +74,13 @@ params:
       url: "https://fb.me/sharf.shawon"
     - name: "Youtube"
       url: "https://youtube.com/@sharf.shawon"
+  assets:
+    disableHLJS: true
+markup:
+  highlight:
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    noClasses: false
+    style: monokai

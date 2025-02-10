@@ -16,8 +16,8 @@ images: [
 
 **BEasy** is a comprehensive small business management solution developed in 2022 to streamline operations for small business owners. Built in support of a friend's new business venture, this cloud-ready SaaS application leverages a modern tech stack—**Laravel** for backend development, **Bootstrap** for responsive UI design, and **MySQL** for robust data management. With its multi-tenant architecture, BEasy efficiently provisions a dedicated environment for each new small business through a simple account creation process.
 
-### Demo 
-- [BEasy Demo](https://beasy.shawon.me)
+### Live Demo 
+- Try out [BEasy Live Demo](https://beasy.shawon.me).
 
 ```yaml
   demo_url: https://beasy.shawon.me
