@@ -11,7 +11,13 @@
 
 - ⚡ Fun fact **I am pretty funny**
 
-<h3 align="left">Connect with me:</h3>
+- 💳 Checkout my Command line business card with 
+
+```bash
+npx sharf.shawon
+```
+---
+<h2 align="left">Connect with me:</h2>
 <p align="left">
 <a href="https://twitter.com/sharf_shawon" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sharf_shawon" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/sharf-shawon" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sharf-shawon" height="30" width="40" /></a>
@@ -20,7 +26,7 @@
 <a href="https://www.youtube.com/c/sharf.shawon" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="sharf.shawon" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
+<h2 align="left">Languages and Tools:</h2>
 <p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> 
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sharf-shawon&show_icons=true&locale=en&layout=compact&theme=react&hide_border=true" alt="sharf-shawon" />
 <p> 
