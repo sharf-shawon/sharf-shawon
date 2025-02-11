@@ -2,6 +2,8 @@ baseURL: https://shawon.me/
 languageCode: en-us
 title: Sharfuddin Shawon
 theme: ["PaperMod"]
+googleAnalytics: G-4MN9DMMFKF
+
 outputs:
   home:
     - HTML
