@@ -1,7 +1,7 @@
 ---
+draft: false
+date: 2024-03-02
 title: "Building Perfect pfSense Router under $25 with HP T630 Thin Client + 2.5Gb Intel NIC"
-date: 2025-01-30
-
 author: "Sharfuddin Shawon"
 ---
 
