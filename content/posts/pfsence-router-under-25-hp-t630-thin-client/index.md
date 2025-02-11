@@ -2,7 +2,14 @@
 draft: false
 date: 2024-03-02
 title: "Building Perfect pfSense Router under $25 with HP T630 Thin Client + 2.5Gb Intel NIC"
-author: "Sharfuddin Shawon"
+tags: ["pfSense", "HP T630", "2.5Gb NIC", "Router", "Home Lab", "Network Security", "Firewall", "Home Network", "Home Automation", "IoT Security"]
+description: "Learn how to build a pfSense router on an HP T630 Thin Client with a 2.5Gb Intel NIC for under $25. This guide includes detailed instructions for installing pfSense, configuring the network, and securing your home network."
+seo_keywords: "pfSense, HP T630, 2.5Gb NIC, router, home lab, network security, firewall, home network, home automation, IoT security"
+showToc: true
+TocOpen: false
+hideSummary: false
+searchHidden: false
+ShowBreadCrumbs: true
 ---
 
 ![HP T630 Thin Client](hp-t630.png)  

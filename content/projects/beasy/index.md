@@ -1,16 +1,23 @@
 ---
+draft: false
 title: "BEasy – Multi-Tenant Small Business Management Software"
 date: "2022-07-01"
-draft: false
-tags: ["Laravel", "Bootstrap", "MySQL", "Multi-Tenant", "SaaS", "Small Business", "Full-Stack", "Web App"]
-description: "BEasy is a cloud-ready, multi-tenant small business management software built in 2022 using Laravel, Bootstrap, and MySQL. Designed for small business owners, it provides a scalable SaaS solution with an efficient onboarding process."
-seo_keywords: "BEasy, small business management software, multi-tenant SaaS, Laravel, Bootstrap, MySQL, cloud-ready app, full-stack development, small business app"
-images: [
-  "/respos-admin-dash.jpg"
-]
+tags: ["Laravel", "Bootstrap", "MySQL", "Multi-Tenant", "SaaS", "Small Business Management", "Full-Stack", "Web App"]
+description: "BEasy is a multi-tenant small business management software made for small and online businesses. It allows business owners to manage their operations efficiently and accurately."
+seo_keywords: "Laravel, Bootstrap, MySQL, Multi-Tenant, SaaS, Small Business Management, Full-Stack, Web App"
+aliases: ["/beasy"]
+showToc: true
+TocOpen: true
+hideSummary: false
+searchHidden: false
+ShowBreadCrumbs: true
+cover:
+    image: "projects/beasy/beasy-login.jpg"
+    alt: "BEasy – Multi-Tenant Small Business Management Software" #
+    caption: "BEasy – Multi-Tenant Small Business Management Software"
+    relative: false
+    hidden: false
 ---
-
-![ResPOS Admin Dashboard](beasy-login.jpg)
 
 ### Overview
 

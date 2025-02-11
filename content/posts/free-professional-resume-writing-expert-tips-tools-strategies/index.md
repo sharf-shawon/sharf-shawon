@@ -5,6 +5,11 @@ title: 'Write a Professional Resume for Free: Expert Strategies, Tools, and Reso
 tags: ["Resume", "Job Search", "Career"]
 description: "Discover how to write a professional resume for free using expert strategies, proven frameworks like the PAR and STAR methods, and powerful tools. Learn dos and don'ts, top action verbs, and recommended resources—including resume templates and guides from leading universities—to boost your job application success."
 seo_keywords: "professional resume writing, free resume builder, resume writing tips, ATS resume optimization, PAR method, STAR method, action verbs for resumes, resume templates, resume dos and don'ts, best resume writing blog"
+showToc: true
+TocOpen: false
+hideSummary: false
+searchHidden: false
+ShowBreadCrumbs: true
 
 ---
 

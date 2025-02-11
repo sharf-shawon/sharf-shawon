@@ -1,13 +1,22 @@
 ---
+draft: false
 title: "Prompt Browser – Lightweight AI Prompt Manager"
 date: "2024-02-08"
-draft: false
 tags: ["Tailwind", "JavaScript", "Nginx", "Docker", "Minimal", "Static", "Local Storage", "AI Prompts"]
 description: "Prompt Browser is a resource-friendly web application for creating, editing, and managing AI prompts locally in your browser, served via a minimal Docker image."
 seo_keywords: "AI prompt manager, Docker, tailwind, static web, local storage prompts, minimal resource usage, prompt organizing, JavaScript"
-images: [
-  "/PromptBrowser.jpg"
-]
+aliases: ["/promptbrowser", "/prompt-browser"]
+showToc: true
+TocOpen: true
+hideSummary: false
+searchHidden: false
+ShowBreadCrumbs: true
+cover:
+    image: "projects/prompt-browser/PromptBrowser.jpg"
+    alt: "Prompt Browser – Lightweight AI Prompt Manager" #
+    caption: "Prompt Browser – Lightweight AI Prompt Manager"
+    relative: false
+    hidden: false
 ---
 
 ![Prompt Browser Screenshot](PromptBrowser.jpg)

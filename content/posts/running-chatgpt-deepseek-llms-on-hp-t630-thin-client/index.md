@@ -5,6 +5,11 @@ title: 'Running LLMs on a Budget: Deploying ChatGPT, DeepSeek, and Llama 2 on a 
 tags: [homelab, self-hosting, AI, ChatGPT, DeepSeek, Llama 2, Ubuntu Server, Docker, Ollama]
 description: "A step-by-step guide to setting up an HP T630 Thin Client to run large language models like ChatGPT, DeepSeek, and/or Llama 2 using a $20 HP T630 Thin Client on Ubuntu and Docker."
 seo_keywords: "homelab, self-hosting, AI, ChatGPT, DeepSeek, Llama 2, Docker, Ollama"
+showToc: true
+TocOpen: false
+hideSummary: false
+searchHidden: false
+ShowBreadCrumbs: true
 
 ---
 

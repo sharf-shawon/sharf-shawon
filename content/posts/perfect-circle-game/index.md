@@ -2,7 +2,16 @@
 date: '2025-01-30T19:29:49-06:00'
 draft: false
 title: 'Perfect Circle Game'
+description: "Ever wondered how steady your hand is? Perfect Circle Game challenges you to draw the most accurate circle possible while measuring your precision in real time."
+seo_keywords: "Perfect Circle Game, circle game, accuracy test, precision game, hand steadiness, real-time drawing, HTML5 Canvas, vanilla JavaScript, Tailwind CSS, Docker, Nginx Alpine"
 tags: ['game', 'SPA', 'projects', 'personal', 'source code']
+aliases: ["/perfect-circle-game", "/perfect-circle", "/circle-game"]
+showToc: true
+TocOpen: false
+hideSummary: false
+searchHidden: false
+ShowBreadCrumbs: true
+
 ---
 # Perfect Circle Game: A Fun Challenge for Precision and Accuracy
 
