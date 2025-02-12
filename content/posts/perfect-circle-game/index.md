@@ -12,7 +12,7 @@ hideSummary: false
 searchHidden: false
 ShowBreadCrumbs: true
 cover:
-    image: "posts/perfect-circle-game/perfect-circle-draw.png"
+    image: "posts/perfect-circle-game/perfect-circle-cover.png"
     alt: "BEasy – Multi-Tenant Small Business Management Software" #
     caption: "BEasy – Multi-Tenant Small Business Management Software"
     relative: false
