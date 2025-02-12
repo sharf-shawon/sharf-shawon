@@ -11,17 +11,28 @@ TocOpen: false
 hideSummary: false
 searchHidden: false
 ShowBreadCrumbs: true
-
+cover:
+    image: "posts/perfect-circle-game/perfect-circle-draw.png"
+    alt: "BEasy – Multi-Tenant Small Business Management Software" #
+    caption: "BEasy – Multi-Tenant Small Business Management Software"
+    relative: false
+    hidden: false
 ---
 # Perfect Circle Game: A Fun Challenge for Precision and Accuracy
-
-![Perfect Circle Game Preview](perfect-circle-draw.png)
 
 ## Introduction
 
 Ever wondered how steady your hand is? **Perfect Circle Game** challenges you to draw the most accurate circle possible while measuring your precision in real time.  
 
 Built with **vanilla JavaScript, HTML5 Canvas, and Tailwind CSS**, the game is fully client-side, lightweight, and deployable via **Docker & Nginx Alpine**.  
+
+![Perfect Circle Game](draw-circle-game-mockup.png)
+
+## 🚀 Live Game and Source Code
+
+- 🔗 [Play Perfect Circle Game](https://circle.shawon.me)
+- 🗂️ [GitHub Repository](https://github.com/sharf-shawon/circle-game)  
+
 
 ## 🕹️ Features  
 
@@ -30,11 +41,6 @@ Built with **vanilla JavaScript, HTML5 Canvas, and Tailwind CSS**, the game is f
 - **Dark mode support**  
 - **Stats tracking** (attempts & average accuracy)  
 - **Responsive design** for desktop & mobile  
-
-## 🚀 Live Demo and Source Code
-
-- 🔗 [Live Demo](https://circle.shawon.me)
-- 🗂️ [GitHub Repository](https://github.com/sharf-shawon/circle-game)  
 
 
 ## 🚀 Quick Setup  
@@ -49,7 +55,10 @@ docker-compose up -d
 
 The game will be available at http://localhost:8687.
 
-### Manual Setup
+![Perfect Circle Game](circle-game-mockup.png)
+
+
+### Manual Deployment
 
 Just open index.html in your browser—no dependencies needed!
 

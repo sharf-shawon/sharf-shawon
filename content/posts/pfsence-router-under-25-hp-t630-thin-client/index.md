@@ -1,20 +1,24 @@
 ---
 draft: false
 date: 2024-03-02
-title: "Building Perfect pfSense Router under $25 with HP T630 Thin Client + 2.5Gb Intel NIC"
+title: "2.5GbE pfSense Router under $25 with HP T630 Thin Client"
 tags: ["pfSense", "HP T630", "2.5Gb NIC", "Router", "Home Lab", "Network Security", "Firewall", "Home Network", "Home Automation", "IoT Security"]
-description: "Learn how to build a pfSense router on an HP T630 Thin Client with a 2.5Gb Intel NIC for under $25. This guide includes detailed instructions for installing pfSense, configuring the network, and securing your home network."
-seo_keywords: "pfSense, HP T630, 2.5Gb NIC, router, home lab, network security, firewall, home network, home automation, IoT security"
+description: "A Guide to build a 2.5GbE pfSense router with an HP T630 Thin Client for under $25. This documentation includes detailed guide for choosing hardware, installing pfSense, to setting it up!"
+seo_keywords: "pfSense, HP T630, thin client, 2.5Gb NIC, router, home lab, network security, firewall, home network, home automation, IoT security"
 showToc: true
 TocOpen: false
 hideSummary: false
 searchHidden: false
 ShowBreadCrumbs: true
+cover:
+    image: "posts/pfsence-router-under-25-hp-t630-thin-client/cover-hp-t630-pfsense-2.5gbe.png"
+    alt: "2.5GbE pfSense Router under $25 with HP T630" #
+    caption: "2.5GbE pfSense Router under $25 with HP T630"
+    relative: false
+    hidden: false
 ---
 
-![HP T630 Thin Client](hp-t630.png)  
-
-🔗 **HP T630 Info:** [Parky Towers](https://www.parkytowers.me.uk/thin/hp/t630/)  
+This is a guide to build a 2.5GbE pfSense router with an HP T630 Thin Client for under $25. This documentation includes detailed guide for choosing hardware, installing pfSense, to setting it up!
 
 ## Why the HP T630?  
 
@@ -23,6 +27,10 @@ ShowBreadCrumbs: true
 - **AES-NI Support:** Ideal for **pfSense** performance.  
 - **Compact & Silent:** Small form factor, no fan noise.  
 - **Upgradeable:** Supports **2.5Gb LAN** via M.2 NIC.  
+
+![HP T630 Thin Client](hp-t630.png)  
+
+🔗 **HP T630 Info:** [Parky Towers](https://www.parkytowers.me.uk/thin/hp/t630/)  
 
 ## 🔌 Choosing & Installing the NIC  
 
