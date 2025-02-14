@@ -2,7 +2,6 @@
 date: '2024-12-09T20:06:34-06:00'
 draft: false
 title: 'The Art of AI Prompt Engineering: How to Craft Clear, Precise, and Effective Prompts for Generative AI'
-
 tags: ["AI", "Prompt Engineering", "Generative AI", "Software Engineering", "AI Prompts"]
 description: "Discover the art of AI prompt engineering with clear, precise, and effective prompts for generative AI, featuring 10 software engineering sample prompts to boost your workflow."
 seo_keywords: "AI Prompt Engineering, clear AI prompts, effective AI prompts, generative AI, software engineering prompts"
@@ -11,9 +10,6 @@ TocOpen: false
 hideSummary: false
 searchHidden: false
 ShowBreadCrumbs: true
-# images: [
-#   "/respos-admin-dash.jpg"
-# ]
 ---
 
 ## Introduction to AI Prompt Engineering
