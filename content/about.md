@@ -5,7 +5,7 @@ title: 'About Me'
 ---
 
 ![Sharfuddin Shawon - Banner](/banner.webp)
-## 👋 Hi, I'm **Sharfuddin Shawon**!
+## Hi, I'm **Sharfuddin Shawon**!
 
 I'm a **Computer Science undergrad** with a passion for **software engineering, artificial intelligence, self-hosting and homelabs**. I love designing **scalable systems**, optimizing performance, and exploring innovative solutions in **big data, networking, and automation**.
 
