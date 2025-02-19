@@ -108,6 +108,10 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 
+{{- if site.Params.profileMode.imageUrl }}
+<link rel="preload" href="{{ site.Params.profileMode.imageUrl }}" as="image">
+{{- end }}
+
 {{- /* RSS */}}
 {{ range .AlternativeOutputFormats -}}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type | html }}" href="{{ .Permalink | safeURL }}">
