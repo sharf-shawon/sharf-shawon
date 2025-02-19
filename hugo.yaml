@@ -22,14 +22,10 @@ menu:
       name: Posts
       url: /posts
       weight: 4
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 5
     - identifier: search
       name: Search
       url: /search/
-      weight: 6
+      weight: 5
 
 params:
   env: production
@@ -69,12 +65,8 @@ params:
       url: "https://github.com/sharf-shawon/"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/sharf-shawon/"
-    - name: "Twitter"
-      url: "https://x.com/sharf_shawon"
-    - name: "Facebook"
-      url: "https://fb.me/sharf.shawon"
-    - name: "Youtube"
-      url: "https://youtube.com/@sharf.shawon"
+    - name: "email"
+      url: "mailto:sharf@shawon.me"
   assets:
     disableHLJS: true
 markup:

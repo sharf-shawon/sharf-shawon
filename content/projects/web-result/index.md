@@ -26,7 +26,7 @@ cover:
   > This project was developed for a friend, according to their specific requirements.
 
 ### Live Demo 
-- Check out [Web Result Live Demo](https://web-result.shawon.me)!
+- Check out [Web Result Live Demo](https://web-result.shawon.me/login)!
 
 ```yaml
   demo_url: https://web-result.shawon.me/login
