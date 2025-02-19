@@ -1,7 +1,7 @@
 ---
 draft: false
 date: "2025-02-15"
-title: "Web Result - Laravel Academic Result Management System"
+title: "Web Result - Academic Result Management System"
 description: "A robust academic result management system with course management, student information, and results tracking capabilities. Developed with Laravel, Tailwind, and MySQL, it showcases full-stack development expertise."
 tags: ["Laravel", "Tailwind", "Blade", "MySQL", "Academic Management", "Full-Stack", "Web App", "PHP"]
 seo_keywords: "Laravel academic result system, student information system, PHP result management, course management software, full-stack Laravel project, CRUD Laravel, Laravel authentication, academic web application"
