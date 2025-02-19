@@ -52,7 +52,7 @@ params:
     enabled: true
     title: "Sharfuddin Shawon" # optional default will be site title
     subtitle: "Full Stack Software Engineer" # optional
-    imageUrl: "icons/icon.webp" # optional
+    imageUrl: "SharfuddinShawon.webp" # optional
     imageTitle: "Sharfuddin Shawon" # optional
     imageWidth: 280 # custom size
     imageHeight: 280 # custom size
