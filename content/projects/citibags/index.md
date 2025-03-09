@@ -17,7 +17,7 @@ cover:
     caption: "CitiBags – Factory Management System"
     relative: false
     hidden: false
-canonicalURL: 'https://shawon.me/projects/citibags
+canonicalURL: 'https://shawon.me/projects/citibags'
 ---
 
 ### Overview
