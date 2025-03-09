@@ -10,6 +10,8 @@ TocOpen: false
 hideSummary: false
 searchHidden: false
 ShowBreadCrumbs: true
+canonicalURL: 'https://shawon.me/posts/ai-prompt-engineering-clear-effective-prompts'
+
 ---
 
 ## Introduction to AI Prompt Engineering

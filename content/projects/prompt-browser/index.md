@@ -17,6 +17,7 @@ cover:
     caption: "Prompt Browser – Lightweight AI Prompt Manager"
     relative: false
     hidden: false
+canonicalURL: 'https://shawon.me/projects/prompt-browser
 ---
 
 ![Prompt Browser Screenshot](PromptBrowser.jpg)

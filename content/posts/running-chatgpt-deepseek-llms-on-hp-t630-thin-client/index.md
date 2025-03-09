@@ -10,6 +10,7 @@ TocOpen: false
 hideSummary: false
 searchHidden: false
 ShowBreadCrumbs: true
+canonicalURL: 'https://shawon.me/posts/running-chatgpt-deepseek-llms-on-hp-t630-thin-client'
 
 ---
 

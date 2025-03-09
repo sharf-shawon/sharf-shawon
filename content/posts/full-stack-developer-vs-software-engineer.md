@@ -11,6 +11,7 @@ TocOpen: false
 hideSummary: false
 searchHidden: false
 ShowBreadCrumbs: true
+canonicalURL: 'https://shawon.me/posts/full-stack-developer-vs-software-engineer'
 
 ---
 

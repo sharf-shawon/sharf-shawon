@@ -10,6 +10,7 @@ TocOpen: false
 hideSummary: false
 searchHidden: false
 ShowBreadCrumbs: true
+canonicalURL: 'https://shawon.me/game-off-nodes/build-secure-homelab-under-20-hp-t630-thin-client'
 ---
 
 In the fast-paced world of job applications, your resume's bullet points can make or break your chance of landing an interview. With the rise of generative AI and large language models (LLMs) like ChatGPT and Deepseek, crafting impactful, quantifiable, and professionally structured bullet points has never been easier—or more affordable. This guide will show you how to harness these cutting-edge tools to create resume bullet points that speak directly to employers and help you stand out in the competitive job market.

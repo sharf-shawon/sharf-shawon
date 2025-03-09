@@ -17,6 +17,8 @@ cover:
     caption: "BEasy – Multi-Tenant Small Business Management Software"
     relative: false
     hidden: false
+canonicalURL: 'https://shawon.me/posts/perfect-circle-game
+
 ---
 # Perfect Circle Game: A Fun Challenge for Precision and Accuracy
 

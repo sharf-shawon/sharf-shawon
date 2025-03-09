@@ -2,6 +2,7 @@
 date: '2025-01-30T19:36:22-06:00'
 draft: false
 title: 'About Me'
+canonicalURL: 'https://shawon.me/about
 ---
 
 ![Sharfuddin Shawon - Banner](/banner.png)

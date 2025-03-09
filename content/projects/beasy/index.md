@@ -17,6 +17,7 @@ cover:
     caption: "BEasy – Multi-Tenant Small Business Management Software"
     relative: false
     hidden: false
+canonicalURL: 'https://shawon.me/projects/beasy
 ---
 
 ### Overview

@@ -17,6 +17,7 @@ cover:
     caption: "ResPOS – Multi-Tenant Restaurant Management Software"
     relative: false
     hidden: false
+canonicalURL: 'https://shawon.me/projects/respos
 ---
 
 ### Overview

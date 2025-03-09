@@ -16,6 +16,8 @@ cover:
     caption: "2.5GbE pfSense Router under $25 with HP T630"
     relative: false
     hidden: false
+canonicalURL: 'https://shawon.me/posts/pfsence-router-under-25-hp-t630-thin-client'
+
 ---
 
 This is a guide to build a 2.5GbE pfSense router with an HP T630 Thin Client for under $25. This documentation includes detailed guide for choosing hardware, installing pfSense, to setting it up!

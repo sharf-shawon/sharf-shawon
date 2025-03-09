@@ -10,6 +10,7 @@ TocOpen: false
 hideSummary: false
 searchHidden: false
 ShowBreadCrumbs: true
+canonicalURL: 'https://shawon.me/posts/free-professional-resume-writing-expert-tips-tools-strategies'
 
 ---
 

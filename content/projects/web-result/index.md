@@ -17,6 +17,7 @@ cover:
     caption: "Laravel Academic Result Management System"
     relative: false
     hidden: false
+canonicalURL: 'https://shawon.me/projects/web-result
 ---
 
 ### Overview
