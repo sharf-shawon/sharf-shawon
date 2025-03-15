@@ -26,103 +26,112 @@ I also enjoy contributing to **open-source projects**, writing **efficient algor
 ---
 
 {{< rawhtml >}}
+<section class="certifications">
+    <h2>My Certifications</h2>
+    <div id="certifications-container" class="certifications-grid">
+        <!-- Certifications loaded here dynamically -->
+    </div>
+</section>
 
 <style>
-
-    .certifications-list {
-  display: grid;
-  gap: 2rem;
-  margin-top: 1.5rem;
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
-.certification-item {
-  display: flex;
-  gap: 1.5rem;
-  align-items: start;
-  padding: 1rem;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
+.certification-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: var(--entry);
+    transition: transform 0.3s ease;
+}
+
+.certification-card:hover {
+    transform: translateY(-2px);
+}
+
+.cert-badge {
+    width: 100%;
+    text-align: center;
 }
 
 .cert-badge img {
-  width: 150px;
-  height: auto;
-  border-radius: 4px;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    margin: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
 }
 
-.cert-info {
-  flex: 1;
+.cert-title {
+    font-size: 1rem !important;
+    font-weight: 500;
+    text-align: center;
+    word-break: break-word;
+    margin: 0;
 }
 
-.cert-info h3 {
-  margin: 0 0 0.5rem 0;
-  color: #1e293b;
-}
-
-.cert-info p {
-  margin: 0.3rem 0;
-  color: #64748b;
-}
-
-.cert-info a {
-  display: inline-block;
-  margin-top: 0.8rem;
-  color: #3b82f6;
-  text-decoration: none;
+@media (max-width: 768px) {
+    .certifications-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 0.75rem;
+    }
+    
+    .certification-card {
+        padding: 0.5rem;
+    }
+    
+    .cert-badge img {
+        max-width: 80px;
+    }
+    
+    .cert-title {
+        font-size: 1rem !important;
+    }
 }
 </style>
 
-<section class="certifications">
-  <h2>My Certifications</h2>
-  <div id="certifications-container" class="certifications-list">
-    <!-- Certifications loaded here dynamically -->
-  </div>
-</section>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const container = document.getElementById('certifications-container');
-  
-  fetch('https://pocketbase.domain.me/api/collections/certifications/records')
-    .then(response => response.json())
-    .then(data => {
-      if (!data.items || data.items.length === 0) {
-        container.innerHTML = "<p>No certifications found.</p>";
-        return;
-      }
+    const container = document.querySelector('.certifications-grid');
+    
+    fetch('https://pocketbase.shawon.me/api/collections/certifications/records')
+        .then(response => response.json())
+        .then(data => {
+            if (!data.items || data.items.length === 0) {
+                container.innerHTML = "<p>No certifications found.</p>";
+                return;
+            }
 
-      data.items.forEach(cert => {
-        const certElement = document.createElement('div');
-        certElement.className = 'certification-item';
+            data.items.forEach(cert => {
+                const card = document.createElement('article');
+                card.className = 'certification-card';
 
-        // Badge image with thumbnail
-        const badgeUrl = `https://pocketbase.domain.me/api/files/${cert.collectionId}/${cert.id}/${cert.badge}?thumb=150x0`;
-        
-        // Certificate image
-        const certUrl = `https://pocketbase.domain.me/api/files/${cert.collectionId}/${cert.id}/${cert.certificate}`;
+                const badgeUrl = `https://pocketbase.shawon.me/api/files/${cert.collectionId}/${cert.id}/${cert.badge}?thumb=200x0`;
 
-        certElement.innerHTML = `
-          <a href="${cert.url}" target="_blank" class="cert-badge">
-            <img src="${badgeUrl}" alt="${cert.name} badge">
-          </a>
-          <div class="cert-info">
-            <h3>${cert.name}</h3>
-            <p><strong>Organization:</strong> ${cert.organization}</p>
-            <p><strong>Earned:</strong> ${new Date(cert.earned_on).toLocaleDateString()}</p>
-            <a href="${certUrl}" target="_blank">View Certificate</a>
-          </div>
-        `;
+                card.innerHTML = `
+                    <a href="${cert.url}" target="_blank" rel="noopener" class="cert-badge">
+                        <img src="${badgeUrl}" alt="${cert.name} badge">
+                    </a>
+                    <h3 class="cert-title">${cert.name}</h3>
+                `;
 
-        container.appendChild(certElement);
-      });
-    })
-    .catch(error => {
-      console.error('Error:', error);
-      container.innerHTML = "<p>Error loading certifications.</p>";
-    });
+                container.appendChild(card);
+            });
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            container.innerHTML = "<p>Error loading certifications.</p>";
+        });
 });
 </script>
-
 {{< /rawhtml >}}
 
 ---
