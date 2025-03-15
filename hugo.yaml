@@ -20,7 +20,7 @@ menu:
       weight: 3
     - identifier: posts
       name: Posts
-      url: /posts
+      url: /posts/
       weight: 4
     - identifier: search
       name: Search
@@ -54,11 +54,11 @@ params:
     imageHeight: 280 # custom size
     buttons:
       - name: About
-        url: "/about"
+        url: "/about/"
       - name: Projects
-        url: "/projects"
+        url: "/projects/"
       - name: Posts
-        url: "/posts"
+        url: "/posts/"
 
   socialIcons: # optional
     - name: "Github"
@@ -68,7 +68,7 @@ params:
     - name: "email"
       url: "mailto:sharf@shawon.me"
   assets:
-    disableHLJS: true
+    disableHLJS: false
 markup:
   highlight:
     anchorLineNos: true
