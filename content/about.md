@@ -37,6 +37,7 @@ I also enjoy contributing to **open-source projects**, writing **efficient algor
 .certifications-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: 1fr; /* Ensure equal row heights */
     gap: 1rem;
     margin-top: 1rem;
 }
@@ -50,6 +51,7 @@ I also enjoy contributing to **open-source projects**, writing **efficient algor
     border-radius: 8px;
     background-color: var(--entry);
     transition: transform 0.3s ease;
+    min-height: 200px; /* Set minimum height for all cards */
 }
 
 .certification-card:hover {
@@ -58,42 +60,71 @@ I also enjoy contributing to **open-source projects**, writing **efficient algor
 
 .cert-badge {
     width: 100%;
-    text-align: center;
+    height: 120px; /* Fixed height for image container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
 }
 
 .cert-badge img {
-    width: 100%;
-    max-width: 100px;
+    width: auto;
+    max-width: 100%;
     height: auto;
-    margin: auto;
+    max-height: 100px;
+    object-fit: contain;
     border-radius: 4px;
-    margin-bottom: 1rem;
+}
+
+.cert-text {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .cert-title {
-    font-size: 1rem !important;
+    font-size: 0.9rem;
     font-weight: 500;
     text-align: center;
-    word-break: break-word;
     margin: 0;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cert-date {
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 0.5rem 0 0 0;
+    color: var(--secondary);
 }
 
 @media (max-width: 768px) {
     .certifications-grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 0.75rem;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     }
     
     .certification-card {
+        min-height: 180px;
         padding: 0.5rem;
     }
     
+    .cert-badge {
+        height: 100px;
+    }
+    
     .cert-badge img {
-        max-width: 80px;
+        max-height: 80px;
     }
     
     .cert-title {
-        font-size: 1rem !important;
+        font-size: 0.8rem;
+        -webkit-line-clamp: 2;
     }
 }
 </style>
@@ -114,13 +145,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 const card = document.createElement('article');
                 card.className = 'certification-card';
 
-                const badgeUrl = `https://pocketbase.shawon.me/api/files/${cert.collectionId}/${cert.id}/${cert.badge}?thumb=200x0`;
+                const badgeUrl = `https://pocketbase.shawon.me/api/files/${cert.collectionId}/${cert.id}/${cert.badge}?thumb=0x100`;
+
+                const earnedDate = new Date(cert.earned_on);
+                const formattedDate = earnedDate.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
 
                 card.innerHTML = `
-                    <a href="${cert.url}" target="_blank" rel="noopener" class="cert-badge">
+                    <a href="${cert.url}" target="_blank" rel="noopener" class="cert-badge"
+                    title="Certified by ${cert.organization}">
                         <img src="${badgeUrl}" alt="${cert.name} badge">
                     </a>
-                    <h3 class="cert-title">${cert.name}</h3>
+                    <div class="cert-text">
+                        <h3 class="cert-title">${cert.name}</h3>
+                        <small class="cert-date">${formattedDate}</small>
+                    </div>
                 `;
 
                 container.appendChild(card);
