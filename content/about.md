@@ -24,6 +24,108 @@ I specialize in **full stack software development**, focusing on **backend engin
 I also enjoy contributing to **open-source projects**, writing **efficient algorithms**, and optimizing systems for **high performance**.
 
 ---
+
+{{< rawhtml >}}
+
+<style>
+
+    .certifications-list {
+  display: grid;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.certification-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.cert-badge img {
+  width: 150px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.cert-info {
+  flex: 1;
+}
+
+.cert-info h3 {
+  margin: 0 0 0.5rem 0;
+  color: #1e293b;
+}
+
+.cert-info p {
+  margin: 0.3rem 0;
+  color: #64748b;
+}
+
+.cert-info a {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: #3b82f6;
+  text-decoration: none;
+}
+</style>
+
+<section class="certifications">
+  <h2>My Certifications</h2>
+  <div id="certifications-container" class="certifications-list">
+    <!-- Certifications loaded here dynamically -->
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.getElementById('certifications-container');
+  
+  fetch('https://pocketbase.domain.me/api/collections/certifications/records')
+    .then(response => response.json())
+    .then(data => {
+      if (!data.items || data.items.length === 0) {
+        container.innerHTML = "<p>No certifications found.</p>";
+        return;
+      }
+
+      data.items.forEach(cert => {
+        const certElement = document.createElement('div');
+        certElement.className = 'certification-item';
+
+        // Badge image with thumbnail
+        const badgeUrl = `https://pocketbase.domain.me/api/files/${cert.collectionId}/${cert.id}/${cert.badge}?thumb=150x0`;
+        
+        // Certificate image
+        const certUrl = `https://pocketbase.domain.me/api/files/${cert.collectionId}/${cert.id}/${cert.certificate}`;
+
+        certElement.innerHTML = `
+          <a href="${cert.url}" target="_blank" class="cert-badge">
+            <img src="${badgeUrl}" alt="${cert.name} badge">
+          </a>
+          <div class="cert-info">
+            <h3>${cert.name}</h3>
+            <p><strong>Organization:</strong> ${cert.organization}</p>
+            <p><strong>Earned:</strong> ${new Date(cert.earned_on).toLocaleDateString()}</p>
+            <a href="${certUrl}" target="_blank">View Certificate</a>
+          </div>
+        `;
+
+        container.appendChild(certElement);
+      });
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      container.innerHTML = "<p>Error loading certifications.</p>";
+    });
+});
+</script>
+
+{{< /rawhtml >}}
+
+---
 ## GitHub Stats
 
 ![Github Stats](https://github-readme-streak-stats.herokuapp.com/?user=sharf-shawon&theme=dracula&hide_border=true)

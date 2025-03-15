@@ -12,12 +12,12 @@
 
 - ⚡ Fun fact **I am pretty funny**
 
-- 🌐 Checkout this repo in [GitHub Pages](https://sharf-shawon.github.io/sharf-shawon/) 
+- 🌐 Checkout this repo in [GitHub](https://sharf-shawon.github.io/sharf-shawon/)/[GitLab](https://sharf-shawon.gitlab.io/sharf-shawon/) Pages
 
 - 💳 Checkout my Command line business card with 
 
 ```bash
-npx sharf.shawon
+    npx sharf.shawon
 ```
 ---
 <h2 align="left">Connect with me:</h2>
