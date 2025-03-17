@@ -5,6 +5,7 @@ date: "2022-07-01"
 tags: ["Laravel", "Bootstrap", "MySQL", "Multi-Tenant", "SaaS", "Small Business Management", "Full-Stack", "Web App"]
 description: "BEasy is a multi-tenant small business management software made for small and online businesses. It allows business owners to manage their operations efficiently and accurately."
 seo_keywords: "Laravel, Bootstrap, MySQL, Multi-Tenant, SaaS, Small Business Management, Full-Stack, Web App"
+canonicalURL: 'https://shawon.me/projects/beasy'
 aliases: ["/beasy"]
 showToc: true
 TocOpen: true
@@ -17,7 +18,6 @@ cover:
     caption: "BEasy – Multi-Tenant Small Business Management Software"
     relative: false
     hidden: false
-canonicalURL: 'https://shawon.me/projects/beasy'
 ---
 
 ### Overview

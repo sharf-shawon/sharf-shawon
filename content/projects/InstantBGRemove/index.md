@@ -10,8 +10,8 @@ TocOpen: false
 hideSummary: false
 searchHidden: false
 ShowBreadCrumbs: true
-canonicalURL: 'https://shawon.me/projects/InstantBGRemove'
-aliases: ["/InstantBGRemove", "bgrem"]
+canonicalURL: 'https://shawon.me/projects/instantbgremove/'
+aliases: ["/InstantBGRemove", "/bgrem"]
 # slug: "first"
 cover:
     image: "projects/InstantBGRemove/instant-background-remover.gif"
