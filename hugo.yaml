@@ -10,6 +10,10 @@ outputs:
     - JSON
 menu:
   main:
+    - identifier: /
+      name: Home
+      url: /
+      weight: 1
     - identifier: about
       name: About
       url: /about/
