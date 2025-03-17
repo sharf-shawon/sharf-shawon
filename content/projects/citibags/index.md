@@ -5,6 +5,7 @@ title: "CitiBags – Factory Management System"
 description: "CitiBags is a full-stack factory management system developed in 2017. It has been in continuous production, supporting a backpack manufacturing factory’s end-to-end operations."
 tags: ["Laravel", "Bootstrap", "MySQL", "Factory Management", "Inventory System", "Full-Stack", "Web App"]
 seo_keywords: "Laravel factory management, inventory management system, Bootstrap web application, MySQL database, manufacturing software, production tracking system, factory ERP software"
+canonicalURL: 'https://shawon.me/projects/citibags'
 aliases: ["/citibags"]
 showToc: true
 TocOpen: true
@@ -17,7 +18,6 @@ cover:
     caption: "CitiBags – Factory Management System"
     relative: false
     hidden: false
-canonicalURL: 'https://shawon.me/projects/citibags'
 ---
 
 ### Overview
