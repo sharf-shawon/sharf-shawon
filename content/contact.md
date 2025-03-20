@@ -157,6 +157,7 @@ Drop me a message, and I’ll be in touch soon!
             <label for="message">Message</label>
             <textarea id="message" name="message" rows="5" required class="form-input"></textarea>
         </div>
+        <input type="hidden" id="x_source_url" name="x_source_url" value="" >
         <button type="submit" class="pageclip-form__submit form-submit">
             <span>Send Message</span>
         </button>
@@ -174,6 +175,9 @@ Drop me a message, and I’ll be in touch soon!
 <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
+        // Set the x_source_url field to the current URL
+        document.getElementById('x_source_url').value = window.location.href;
+        
         var form = document.querySelector('.pageclip-form');
         var successMessage = document.querySelector('.success-message');
         var errorMessage = document.querySelector('.error-message');
