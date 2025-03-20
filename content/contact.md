@@ -139,7 +139,7 @@ Drop me a message, and I’ll be in touch soon!
 </style>
 
 <section class="contact-form-container">
-    <form action="https://send.pageclip.co/iJNdBLUjsnlzNR2XTcYk7dEKT1VBKJ8Y" 
+    <form action="https://send.pageclip.co/iJNdBLUjsnlzNR2XTcYk7dEKT1VBKJ8Y/ContactForm" 
         class="pageclip-form" method="post">
         <div class="form-group">
             <label for="name">Name</label>
