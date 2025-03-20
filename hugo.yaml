@@ -26,13 +26,18 @@ menu:
       name: Posts
       url: /posts/
       weight: 4
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 5
     - identifier: search
       name: Search
       url: /search/
-      weight: 5
+      weight: 6
 
 params:
   env: production
+  defaultTheme: auto
   description: "Sharfuddin Shawon is a Full Stack Software Engineer, Tech Enthusiast, and Blogger. He loves to write about new technologies, programming, and software development."
   author: "Sharfuddin Shawon"
   keywords: [
@@ -45,7 +50,6 @@ params:
     "Programmer",
     ]
   images: ["banner.png"]
-  defaultTheme: auto
   ShowCodeCopyButtons: true
   ShowShareButtons: true
   profileMode:
@@ -63,6 +67,8 @@ params:
         url: "./projects/"
       - name: Posts
         url: "./posts/"
+      - name: Contact
+        url: "./contact/"
 
   socialIcons: # optional
     - name: "Github"

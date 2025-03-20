@@ -15,9 +15,11 @@
       {{- end }}
     </h1>
     {{- if .Description }}
-    <div class="post-description">
-      {{ .Description }}
-    </div>
+      {{- if not (.Param "hideDescription") }}
+      <div class="post-description">
+        {{ .Description }}
+      </div>
+      {{- end }}
     {{- end }}
     {{- if not (.Param "hideMeta") }}
     <div class="post-meta">
@@ -44,11 +46,13 @@
 
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    {{- if not (.Param "hideTags") }}
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) }}
       <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
       {{- end }}
     </ul>
+    {{- end }}
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
