@@ -13,6 +13,13 @@ ShowBreadCrumbs: true
 canonicalURL: 'https://shawon.me/posts/dell-wyse-5070-proxmox-high-availability-cluster'
 aliases: [ "/dell-wyse-5070-proxmox-ha"]
 slug: "dell-wyse-5070-proxmox-high-availability-cluster"
+cover:
+    image: "posts/perfect-circle-game/perfect-circle-cover.png"
+    alt: "BEasy – Multi-Tenant Small Business Management Software" #
+    caption: "BEasy – Multi-Tenant Small Business Management Software"
+    relative: false
+    hidden: false
+
 ---
 
 # Can You Run a Proxmox VE HA Cluster on Dell Wyse 5070? Real-World Insights
