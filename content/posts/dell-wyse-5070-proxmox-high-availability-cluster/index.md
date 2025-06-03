@@ -13,12 +13,12 @@ ShowBreadCrumbs: true
 canonicalURL: 'https://shawon.me/posts/dell-wyse-5070-proxmox-high-availability-cluster'
 aliases: [ "/dell-wyse-5070-proxmox-ha"]
 slug: "dell-wyse-5070-proxmox-high-availability-cluster"
-# cover:
-#   image: "/images/posts/proxmox-wyse-5070-ha-cover.jpg"
-#   alt: "Dell Wyse 5070 running Proxmox VE"
-#   caption: "Testing Proxmox VE HA on Dell Wyse 5070 Thin Clients"
-#   relative: true
-#   hidden: false
+cover:
+  image: "/images/posts/proxmox-wyse-5070-ha-cover.jpg"
+  alt: "Dell Wyse 5070 running Proxmox VE"
+  caption: "Testing Proxmox VE HA on Dell Wyse 5070 Thin Clients"
+  relative: true
+  hidden: false
 ---
 
 # Can You Run a Proxmox VE HA Cluster on Dell Wyse 5070? Real-World Insights
