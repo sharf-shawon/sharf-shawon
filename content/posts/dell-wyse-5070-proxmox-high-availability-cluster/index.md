@@ -31,6 +31,7 @@ Is the Dell Wyse 5070 a viable choice for running a **Proxmox VE High Availabili
 
 The **Dell Wyse 5070**, powered by Intel J4105 or J5005 processors, is popular among homelab enthusiasts for its affordability and energy efficiency. Many users consider it for lightweight virtualization, container orchestration, and always-on services. But does it have what it takes to support a true **Proxmox VE HA Cluster**?
 
+![My Setup](dell-wyse-5070-3node-cluster.webp)  
 ---
 
 ## Storage Limitations: eMMC and SATA Constraints
@@ -41,28 +42,28 @@ The built-in **eMMC storage** on the Wyse 5070 is not recognized by the Proxmox 
 
 ### SATA Support
 
-Each Wyse 5070 provides only a **single SATA port**, allowing for just one 2.5" SSD or HDD. This limitation makes it impossible to configure local storage redundancy (OS + data separation) required for robust Proxmox HA or Ceph setups. While external USB drives can be added, they are not ideal for performance or reliability in clustered environments.
+Each Wyse 5070 provides only a **single SATA port**, allowing for just one M.2 SSD. This limitation makes it impossible to configure OSD required for Proxmox HA and/or Ceph setups. While external USB drives can be added, they are not ideal for performance or reliability in clustered environments.
 
-**Verdict:**  
 The Dell Wyse 5070 does not offer the storage flexibility or reliability required for a Proxmox VE HA Cluster. Avoid using eMMC for critical storage, and note the lack of dual-disk support.
 
 ---
 
 ## Networking: Expandability Required for HA and Ceph
 
-By default, the Wyse 5070 features:
+My Dell Wyse 5070 features:
 
 - 1x Gigabit Ethernet port
 - Wi-Fi (5GHz), which is not recommended for clustering or storage traffic
 
-For Proxmox HA or Ceph clusters, dedicated and redundant networking is essential. The single onboard Ethernet port is insufficient for separating cluster, storage, and management traffic. However, networking can be expanded via:
+![My cluster networking setup](dell-Wyse-5070-cluster-network.webp)  
+
+For Proxmox HA or Ceph clusters, dedicated and redundant networking is essential. The single onboard Ethernet port is insufficient for separating cluster, storage, and management traffic. Because, a single shared link can cause congestion and result in poor throughput. Specially, since we can't use high speed nvme storage. However, networking can be expanded via:
 
 - **USB Ethernet adapters**
-- **M.2 A+E slot** for an additional NIC (if available)
+- **M.2 A+E slot** for an additional NIC (i.e. Realtek RTL8125B NIC, ensure compatibility)
 - **VLAN-capable switches** for traffic segmentation
 
-**Verdict:**  
-Serious HA or Ceph workloads require at least one additional Ethernet interface per node. The default networking is inadequate for high-availability clustering.
+Serious HA or Ceph workloads require at least one additional Ethernet interface per node. The default networking (single 1Gbps) is inadequate for high-availability clustering.
 
 ---
 
@@ -74,9 +75,10 @@ The Wyse 5070 excels in **power efficiency**, with a TDP under 10W. This makes i
 - Learning environments
 - Running a handful of virtual machines or containers
 
+![3 Node Dell Wyse 5070 Power Draw Running just Proxmox](3x-dell-wyse-5070-power-draw-proxmox.webp)  
+
 However, the **Intel J4105/J5005 CPUs** and limited RAM (officially up to 8GB, though some users report success with 32GB) are not suitable for compute-intensive or high IOPS workloads, such as those required by Ceph or enterprise-grade HA clusters.
 
-**Verdict:**  
 The Wyse 5070 is best suited for light homelab tasks, not for demanding high-availability or storage-intensive applications.
 
 ---
@@ -101,25 +103,27 @@ The Wyse 5070 is best suited for light homelab tasks, not for demanding high-ava
 If you already own Dell Wyse 5070 units, consider these practical applications:
 
 - Standalone Proxmox VE node for basic virtualization
-- Backup or replication node
+- Proxmox Cluster w/o HA with NAS storage (My setup)
+- Proxmox Backup server or other backup/replication node
 - Docker Swarm or lightweight Kubernetes (K3s) node
-- Home Assistant or Pi-hole server
+- Home Assistant, Pi-hole and/or VaultWarden server
 - NFS/SMB client for shared storage environments
 
+![3x Dell Wyse 5070 Running Proxmox VE Cluster w/o HA](dell-wyse-5070-proxmox-dashboard.webp)
 ---
 
 ## Final Thoughts: Is the Wyse 5070 Right for Your Proxmox Homelab?
 
-The **Dell Wyse 5070** offers outstanding value for power-conscious homelabbers seeking a low-power Proxmox server. However, it falls short for Proxmox VE HA Cluster deployments due to its storage and networking limitations. While you can technically configure a cluster with external storage and additional NICs, the total cost and complexity outweigh the benefits.
+The **Dell Wyse 5070** offers outstanding value for power-conscious homelabbers seeking a low-power Proxmox server. However, it falls short for High Availability Cluster deployments due to its storage and networking limitations. While you can technically configure a cluster with external storage and additional NICs, the total cost and complexity outweigh the benefits.
 
 **For true high availability, look for nodes with:**
 
 - Dual SATA/NVMe support
 - Dual NICs
-- ECC memory (if possible)
 - Higher IOPS storage options
+- ECC memory (if possible)
 
-If your goal is a reliable, scalable Proxmox VE HA Cluster, consider investing in hardware designed for clustering and redundancy.
+If your goal is a reliable, scalable Proxmox VE HA Cluster, consider investing in hardware designed for clustering and redundancy. For budget-conscious homelabs, HP Elitedesk Mini offer better value with dual disk support and more flexible networking options.
 
 ---
 
