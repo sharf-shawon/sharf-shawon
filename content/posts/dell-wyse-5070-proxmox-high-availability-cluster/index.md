@@ -13,12 +13,12 @@ ShowBreadCrumbs: true
 canonicalURL: 'https://shawon.me/posts/dell-wyse-5070-proxmox-high-availability-cluster'
 aliases: [ "/dell-wyse-5070-proxmox-ha"]
 slug: "dell-wyse-5070-proxmox-high-availability-cluster"
-cover:
-    image: "posts/perfect-circle-game/perfect-circle-cover.png"
-    alt: "BEasy – Multi-Tenant Small Business Management Software" #
-    caption: "BEasy – Multi-Tenant Small Business Management Software"
-    relative: false
-    hidden: false
+# cover:
+#     image: "posts/perfect-circle-game/perfect-circle-cover.png"
+#     alt: "BEasy – Multi-Tenant Small Business Management Software" #
+#     caption: "BEasy – Multi-Tenant Small Business Management Software"
+#     relative: false
+#     hidden: false
 
 ---
 
