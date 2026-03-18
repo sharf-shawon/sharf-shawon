@@ -2,6 +2,8 @@
 <h1>👋 Hello, I am Shawon</h1>
 <h3>A passionate software developer focused on writing clean, efficient code.</h3>
 
+📦 Cloudflare Pages deployment guide: [DEPLOY_CLOUDFLARE_PAGES.md](DEPLOY_CLOUDFLARE_PAGES.md)
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sharf-shawon&label=Profile%20views&color=0e75b6&style=flat" alt="sharf-shawon" /> </p>
 
 <p align="left"> <a href="https://twitter.com/sharf_shawon" target="blank"><img src="https://img.shields.io/twitter/follow/sharf_shawon?logo=twitter&style=for-the-badge" alt="sharf_shawon" /></a> </p>
