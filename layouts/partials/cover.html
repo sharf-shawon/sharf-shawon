@@ -1,15 +1,29 @@
 {{- with .cxt}} {{/* Apply proper context from dict */}}
-{{- if (and .Params.cover.image (not $.isHidden)) }}
-{{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
+{{- $coverImage := "" }}
+{{- $coverAlt := "" }}
+{{- $coverCaption := "" }}
+{{- if reflect.IsMap .Params.cover }}
+    {{- $coverImage = .Params.cover.image }}
+    {{- $coverAlt = .Params.cover.alt }}
+    {{- $coverCaption = .Params.cover.caption }}
+{{- else if (eq (printf "%T" .Params.cover) "string") }}
+    {{- $coverImage = .Params.cover }}
+{{- end }}
+{{- if (and $coverImage (not $.isHidden)) }}
+{{- $alt := ($coverAlt | default $coverCaption | plainify) }}
 {{- $loading := cond $.IsSingle "eager" "lazy" }}
+{{- $coverResponsiveImages := "" }}
+{{- if reflect.IsMap .Params.cover }}
+    {{- $coverResponsiveImages = .Params.cover.responsiveImages }}
+{{- end }}
 <figure class="entry-cover">
-    {{- $responsiveImages := (.Params.cover.responsiveImages | default site.Params.cover.responsiveImages) | default true }}
+    {{- $responsiveImages := ($coverResponsiveImages | default site.Params.cover.responsiveImages) | default true }}
     {{- $addLink := (and site.Params.cover.linkFullImages $.IsSingle) }}
-    {{- $pageBundleCover     := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
-    {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- $pageBundleCover     := (.Resources.ByType "image").GetMatch (printf "*%s*" $coverImage) }}
+    {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" $coverImage) }}
     {{- $cover := (or $pageBundleCover $globalResourcesCover)}}
     {{- if $cover -}}{{/* i.e it is present in page bundle */}}
-        {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" target="_blank"
+        {{- if $addLink }}<a href="{{ (path.Join .RelPermalink $coverImage) | absURL }}" target="_blank"
             rel="noopener noreferrer">{{ end -}}
         {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
         {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
@@ -26,17 +40,17 @@
             sizes="(min-width: 768px) 720px, 100vw" src="{{ $cover.Permalink }}" alt="{{ $alt }}" 
             width="{{ $cover.Width }}" height="{{ $cover.Height }}">
         {{- else }}{{/* Unprocessable image or responsive images disabled */}}
-        <img loading="{{$loading}}" src="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" alt="{{ $alt }}">
+        <img loading="{{$loading}}" src="{{ (path.Join .RelPermalink $coverImage) | absURL }}" alt="{{ $alt }}">
         {{- end }}
     {{- else }}{{/* For absolute urls and external links, no img processing here */}}
-        {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
+        {{- if $addLink }}<a href="{{ $coverImage | absURL }}" target="_blank"
             rel="noopener noreferrer">{{ end -}}
-            <img loading="{{$loading}}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
+            <img loading="{{$loading}}" src="{{ $coverImage | absURL }}" alt="{{ $alt }}">
     {{- end }}
     {{- if $addLink }}</a>{{ end -}}
     {{/*  Display Caption  */}}
     {{- if $.IsSingle }}
-        {{ with .Params.cover.caption }}<p>{{ . | markdownify }}</p>{{- end }}
+        {{ with $coverCaption }}<p>{{ . | markdownify }}</p>{{- end }}
     {{- end }}
 </figure>
 {{- end }}{{/* End image */}}

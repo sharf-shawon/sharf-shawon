@@ -77,12 +77,20 @@
   "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
   "wordCount" : "{{ .WordCount }}",
   "inLanguage": {{ .Language.Lang | default "en-us" }},
-  {{ if .Params.cover.image -}}
+  {{- $coverImage := "" -}}
+  {{- $coverRelative := false -}}
+  {{- if reflect.IsMap .Params.cover -}}
+    {{- $coverImage = .Params.cover.image -}}
+    {{- $coverRelative = eq .Params.cover.relative true -}}
+  {{- else if (eq (printf "%T" .Params.cover) "string") -}}
+    {{- $coverImage = .Params.cover -}}
+  {{- end -}}
+  {{ if $coverImage -}}
   "image":
-    {{- if (ne .Params.cover.relative true) -}}
-    {{ .Params.cover.image | absURL }},
+    {{- if not $coverRelative -}}
+    {{ $coverImage | absURL }},
     {{- else -}}
-    {{ (path.Join .RelPermalink .Params.cover.image ) | absURL }},
+    {{ (path.Join .RelPermalink $coverImage ) | absURL }},
     {{- end}}
   {{- else }}
     {{- $images := partial "_funcs/get-page-images" . -}}
