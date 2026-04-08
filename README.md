@@ -1,8 +1,6 @@
-<img src="static/banner.png">
+<img src="static/sharf-shawon-profile-banner.svg">
 <h1>👋 Hello, I am Shawon</h1>
-<h3>A passionate software developer focused on writing clean, efficient code.</h3>
-
-📦 Cloudflare Pages deployment guide: [DEPLOY_CLOUDFLARE_PAGES.md](DEPLOY_CLOUDFLARE_PAGES.md)
+<h3>A passionate software engineer focused on writing clean, efficient code to solve world problems.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sharf-shawon&label=Profile%20views&color=0e75b6&style=flat" alt="sharf-shawon" /> </p>
 
@@ -11,8 +9,6 @@
 - 👨‍💻 Some of my projects are available at [https://shawon.me/projects](https://shawon.me/projects)
 
 - 📝 I write articles on [https://shawon.me/posts](https://shawon.me/posts)
-
-- ⚡ Fun fact **I am pretty funny**
 
 - 🌐 Checkout this repo in [GitHub](https://sharf-shawon.github.io/sharf-shawon/)/[GitLab](https://sharf-shawon.gitlab.io/sharf-shawon/) Pages
 
