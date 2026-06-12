@@ -1,14 +1,20 @@
 <p align="center">
-<img src="static/sharf-shawon-profile-banner.svg">
+  <img src="static/sharf-shawon-profile-banner.svg">
+  
 </p>
-<img src="https://komarev.com/ghpvc/?username=sharf-shawon&label=Profile%20views&color=0e75b6&style=flat" alt="sharf-shawon" />
-
-# Mohammed Sharfuddin Shawon
-## Full-Stack Software Engineer & SaaS Developer
+<span align="center">
+  <h1>Sharfuddin Shawon</h1>
+</span>
+<p align="center">
+  <a href="https://shawon.me">Portfolio</a> · <a href="https://linkedin.com/in/sharf-shawon">LinkedIn</a> · <a href="mailto:sharf.shawon@gmail.com">Email</a>
+</p>
 
 Full-Stack Software Engineer and DevOps Practitioner focused on shipping precise, production-grade applications. Based in the United States, I build end-to-end systems that bridge the gap between robust backend architecture and high-performance frontend interfaces.
 
 ---
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,java,php,docker,github,aws,azure,django,react,laravel,nextjs&perline=6">
+</p>
 
 ### **Stack Kernel**
 
@@ -109,4 +115,4 @@ Professional software engineering roles focused on Full-Stack development and De
 
 ---
 
-[shawon.me](https://shawon.me) · [LinkedIn](https://linkedin.com/in/sharf-shawon) · [Email](mailto:sharf.shawon@gmail.com)
+<img src="https://komarev.com/ghpvc/?username=sharf-shawon&label=Profile%20views&color=0e75b6&style=flat" alt="sharf-shawon" />
